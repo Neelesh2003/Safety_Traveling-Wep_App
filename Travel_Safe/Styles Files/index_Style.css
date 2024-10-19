@@ -55,7 +55,7 @@ body {
 .features .feature {
     width: 30%; /* Adjust the width as needed */
     text-align: center;
-    transition: transform 0.3s ease; /* Add transition for hover effect */
+    transition: transform 0.2s ease; /* Add transition for hover effect */
 }
 
 .features .feature img {
@@ -66,7 +66,7 @@ body {
 }
 
 .features .feature:hover {
-    transform: scale(1.05); /* Slightly enlarges the image on hover */
+    transform: scale(1.08); /* Slightly enlarges the image on hover */
 }
 
 .features h3 {
@@ -168,40 +168,6 @@ body {
     font-size: 18px;
     max-width: 800px;
     margin: 0 auto;
-  }
-  
-  /* Contact Us Section */
-  .contact {
-    padding: 50px;
-    text-align: center;
-    background-color: #ffffff;
-  }
-  
-  .contact h3 {
-    font-size: 28px;
-    color: #ff6f61;
-  }
-  
-  .contact form {
-    max-width: 500px;
-    margin: 0 auto;
-  }
-  
-  .contact input, .contact textarea {
-    width: 100%;
-    padding: 10px;
-    margin: 10px 0;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
-  
-  .contact button {
-    background-color:#ff6f61 ;
-    color: white;
-    padding: 15px 30px;
-    border: none;
-    cursor: pointer;
-    font-size: 18px;
   }
   
   /* Footer */
