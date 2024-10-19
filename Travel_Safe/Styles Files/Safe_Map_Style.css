@@ -1,0 +1,81 @@
+body, html {
+    background-image: url("/images/Map_bg.jpg");
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background-color: #000; /* Ensuring a black background */
+    background-size: cover;
+}
+
+.Map_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120vh;
+    position: relative; /* Set relative positioning for absolute children */
+}
+
+/* .block {
+    margin-top: 95px;
+    margin-left: 355px;
+    width: 760px; 
+    height: 470px;
+    position: absolute; 
+    top: 0; 
+    left: 0;
+    background: linear-gradient(0deg, #000, #272727); 
+    z-index: 1; 
+}
+
+.block:before, .block:after {
+    content: '';
+    position: absolute;
+    left: -2px;
+    top: -2px;
+    background: linear-gradient(45deg, #00a7fb, #0000ff, #006aff, #00ff26, #22ff00, #00fbc5, #0000ff, #00ff00, #00f2ff, #4dff00);
+    background-size: 400%;
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    z-index: -1; 
+    animation: steam 20s linear infinite;
+}
+
+@keyframes steam {
+    0% {
+        background-position: 0 0;
+    }
+    50% {
+        background-position: 400% 0;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}
+
+.block:after {
+    filter: blur(50px);
+} */
+
+#mapContainer {
+    position: relative;
+    width: 800px; /* Match width with the block */
+    height: 500px; /* Match height with the block */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin: auto;
+    box-sizing: border-box;
+    border-radius: 10px;
+    overflow: hidden; /* Ensure content doesn't overflow the container */
+    z-index: 2; /* Keep the map above the animated box */
+}
+
+/* Added a z-index for the map to sit above the borders */
+#map {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    position: relative; /* Set relative positioning */
+}
